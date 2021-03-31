@@ -1,7 +1,14 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "start": "lerna run start --stream"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "react-dom": "17.0.2",
+    "react": "17.0.2"
   }
 }
